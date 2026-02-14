@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/yash-mawale-se",
+            "outputPath": "dist/yash-mawale-se/docs",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
