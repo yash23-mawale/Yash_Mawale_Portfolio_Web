@@ -12,11 +12,11 @@ export class SkillsComponent {
   skillCategories = [
     {
       name: 'Languages',
-      skills: ['Java', 'Java EE', 'JavaScript', 'TypeScript', 'HTML5', 'CSS3', 'SQL']
+      skills: ['C','Java', 'Java EE', 'JavaScript', 'TypeScript', 'HTML5', 'CSS3', 'SQL']
     },
     {
       name: 'Frameworks',
-      skills: ['Spring Boot', 'Spring MVC', 'Hibernate', 'Angular', 'Bootstrap']
+      skills: ['Spring Boot', 'Spring MVC', 'Hibernate', 'Angular']
     },
     {
       name: 'Databases',
@@ -24,7 +24,7 @@ export class SkillsComponent {
     },
     {
       name: 'Tools & Concepts',
-      skills: ['Git/GitHub', 'DSA (Java)', 'OOP', 'REST API']
+      skills: ['Git/GitHub', 'DSA (Java)', 'OOP', 'REST API', 'DBMS']
     }
   ];
 }

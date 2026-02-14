@@ -10,26 +10,13 @@
 
 .footer-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     color: var(--text-secondary);
     font-size: 0.9rem;
 }
 
-.footer-links {
-    display: flex;
-    gap: 15px;
-}
 
-.footer-links a {
-    color: var(--text-secondary);
-    text-decoration: none;
-    transition: color 0.2s;
-}
-
-.footer-links a:hover {
-    color: var(--accent-color);
-}
 
 @media (max-width: 600px) {
     .footer-container {

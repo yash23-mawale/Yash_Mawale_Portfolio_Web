@@ -24,17 +24,17 @@ export class ExperienceComponent {
     {
       role: 'Java Application Development (Intern)',
       company: 'NEXANOVA PROTECH',
-      location: 'Pune',
+      location: 'Pune, India',
       duration: 'Dec 2024 - Apr 2025',
       description: [
         'Worked on Java application development projects.',
-        'Gained hands-on experience with Java technologies and frameworks.'
+        'Gained hands on experience with Java technologies and frameworks.'
       ]
     },
     {
       role: 'Web Development (Intern)',
       company: 'ImagineScript Solution Pvt. Ltd.',
-      location: 'Pune',
+      location: 'Amravati, India',
       duration: 'June 2024 - July 2024',
       description: [
         'Assisted in web development tasks.',

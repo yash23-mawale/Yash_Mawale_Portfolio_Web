@@ -68,11 +68,14 @@
 }
 
 .description {
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     color: var(--text-secondary);
     margin-bottom: 30px;
-    max-width: 500px;
-    line-height: 1.7;
+    max-width: 550px;
+    line-height: 1.8;
+    font-weight: 300;
+    /* Lighter weight for elegance */
+    letter-spacing: 0.5px;
 }
 
 .hero-buttons {
@@ -95,7 +98,7 @@
     border-radius: 50%;
     background-color: var(--bg-card);
     color: var(--text-secondary);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     transition: all 0.3s ease;
     box-shadow: var(--shadow-sm);
     border: 1px solid var(--border-color);
