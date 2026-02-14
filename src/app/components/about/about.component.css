@@ -1,0 +1,89 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.about-section {
+    background-color: var(--bg-card);
+    flex: 1;
+    display: flex;
+    align-items: center;
+    /* Vertically center content */
+    width: 100%;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+.about-text {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+}
+
+.about-text h3 {
+    margin-top: 20px;
+    color: var(--text-primary);
+    font-size: 1.5rem;
+}
+
+.academics-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.academics-list li {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border-left: 3px solid var(--accent-color);
+}
+
+.school {
+    font-size: 0.95rem;
+    font-style: italic;
+    color: var(--text-secondary);
+}
+
+.about-stats-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+}
+
+.stat-card {
+    background-color: var(--bg-primary);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.2s;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.stat-number {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--accent-color);
+    margin-bottom: 5px;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        grid-template-columns: 1fr;
+    }
+}
