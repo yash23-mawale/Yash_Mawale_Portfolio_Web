@@ -17,7 +17,6 @@
 
 .navbar-container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     width: 100%;
 }
@@ -28,6 +27,7 @@
     font-size: 1.5rem;
     color: var(--accent-color);
     text-decoration: none;
+    margin-right: auto;
 }
 
 .nav-links {
@@ -67,6 +67,13 @@
 
 .theme-toggle:hover {
     transform: rotate(15deg);
+}
+
+.navbar-controls {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 20px;
 }
 
 .menu-toggle {
