@@ -1,6 +1,6 @@
 .footer {
     background-color: var(--bg-card);
-    padding: 15px 0;
+    padding: 10px 0;
     /* Slightly reduced padding */
     border-top: 1px solid var(--border-color);
     flex-shrink: 0;
@@ -14,6 +14,11 @@
     align-items: center;
     color: var(--text-secondary);
     font-size: 0.9rem;
+}
+
+.footer-container p {
+    margin: 0;
+    text-align: center;
 }
 
 
